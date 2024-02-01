@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour');
+@import url('https://fonts.googleapis.com/css2?family=VT323');
+
+#mainBody {
+  width: 100%;
+  text-align: center;
+  margin-top: 30vh;
+}
+
+#mainBody > div {
+  text-align: center;
+}
+
+#bar {
+  width: 40%;
+  border: 1px solid black;
+  position: relative;
+  left: 30%;
+}
+
+#name {
+  font-size: 3em;
+  font-family: Sixtyfour;
+  
+  margin: 5px;
+  padding-bottom: 10px;
+}
+
+#position {
+  margin-top: 15px;
+  font-size: 2em;
+  font-family: VT323;
+}
+
+#body {
+  margin-top: 10%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#grid {
+  height: 40%;
+
+  display: grid;
+  gap: 50px;
+
+  grid-template-rows: 3em;
+  grid-template-columns: 25vh 25vh;
+
+  justify-items: center;
+}
+
+.gridOne {
+  align-self: center;
+
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.gridTwo {
+  align-self: center;
+
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.gridThree {
+  align-self: center;
+
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.gridFour {
+  align-self: center;
+
+  grid-column: 2;
+  grid-row: 2;
+}
