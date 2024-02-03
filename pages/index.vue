@@ -9,7 +9,7 @@
   <div id="mainBody">
     <div id="name"></div>
     <div id="bar"/>
-    <div id="position">CS Student</div>
+    <div id="position">CS Student @ INSA Lyon</div>
   </div>
   <div id="body">
     <div id="gridWrapper">
