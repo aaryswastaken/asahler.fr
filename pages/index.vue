@@ -1,5 +1,8 @@
-<<script>
+<script>
   import '~/assets/css/index.css'
+
+  import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome"
+  import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 </script>
 
 <template>
@@ -9,34 +12,45 @@
     <div id="position">CS Student</div>
   </div>
   <div id="body">
-    <div id="grid">
-      <div class="gridOne" id="portfolio">
-        <BigButton>
-          Portfolio
-        </BigButton>
-      </div>
+    <div id="gridWrapper">
+      <div id="grid">
+	<div class="gridOne" id="portfolio">
+	  <BigButton @clicked="() => {navigateTo('/portfolio')}">
+	    Portfolio
+	  </BigButton>
+	</div>
 
-      <div class="gridTwo" id="blog">
-        <BigButton>
-          Blog
-        </BigButton>
-      </div>
+	<div class="gridTwo" id="blog">
+	  <BigButton @clicked="() => {navigateTo('https://blog.asahler.fr', {external: true});}">
+	    Blog
+	  </BigButton>
+	</div>
 
-      <div class="gridThree" id="about">
-        <BigButton>
-          About Me :D
-        </BigButton>
-      </div>
+	<div class="gridThree" id="about">
+	  <BigButton @clicked="() => {navigateTo('/about')}">
+	    About Me :D
+	  </BigButton>
+	</div>
 
-      <div class="gridFour" id="socials">
-        <BigButton>
-          Socials
-        </BigButton>
+	<div class="gridFour" id="fTh">
+	  <BigButton>
+	    4th button
+	  </BigButton>
+	</div>
       </div>
     </div>
   </div>
+  <footer id="footer">
+    <div class="socials">
+      <Social redirect="https://www.instagram.com/aaryswastaken">
+	<font-awesome-icon icon="fa-brands fa-instagram" />
+      </Social>
+    </div>
+  </footer>
 
   <Script async>
+
+    // *************************
     const name = "Aarys Sahler "
 
     async function writeName(_name) {
