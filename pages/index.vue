@@ -45,6 +45,9 @@
       <Social redirect="https://www.instagram.com/aaryswastaken">
 	<font-awesome-icon icon="fa-brands fa-instagram" />
       </Social>
+      <Social redirect="https://www.github.com/aaryswastaken">
+      	<font-awesome-icon icon="fa-brands fa-github" />
+      </Social>
     </div>
   </footer>
 
