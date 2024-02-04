@@ -44,3 +44,13 @@ main {
   margin-top: 50px;
   margin-left: 20vw;
 }
+
+
+br {
+  margin-bottom: 5px;
+}
+
+p {
+  text-justify: distribute;
+  width: 100%;
+}
