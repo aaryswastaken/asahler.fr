@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour');
+@import url('https://fonts.googleapis.com/css2?family=VT323');
+
+#headerDiv {
+  height: 2em;
+  padding: 2em 0em;
+  border-bottom: solid 1px black;
+
+  width: 100%;
+
+  display: flex;
+}
+
+#root {
+  border-bottom: dashed 2px black;
+
+  transition: 0.8s ease-in-out;
+}
+
+#root:hover {
+  border-bottom: solid 2px black;
+}
+
+
+#header {
+  display: flex;
+  position: absolute;
+
+  font-size: 2em;
+  font-family: VT323;
+
+  top: 1.5em;
+  left: 0;
+
+  width: 100%;
+
+  justify-items: center;
+  justify-content: center;
+} 
+
+main {
+  width: 60vw;
+  
+  margin-top: 50px;
+  margin-left: 20vw;
+}
