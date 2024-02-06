@@ -50,12 +50,13 @@
 
 #grid {
   height: 40%;
+  width: 100%;
 
   display: grid;
   gap: 50px;
 
   grid-template-rows: 3em;
-  grid-template-columns: 25vh 25vh;
+  grid-template-columns: 25vw 25vw;
 
   justify-items: center;
 }

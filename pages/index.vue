@@ -32,9 +32,9 @@
 	  </BigButton>
 	</div>
 
-	<div class="gridFour" id="fTh">
+	<div class="gridFour" id="resume">
 	  <BigButton>
-	    4th button
+	    My resume (fr)
 	  </BigButton>
 	</div>
       </div>

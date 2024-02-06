@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono');
 @import url('https://fonts.googleapis.com/css2?family=VT323');
 
 #headerDiv {
@@ -13,8 +14,6 @@
 
 #root {
   border-bottom: dashed 2px black;
-
-  transition: 0.8s ease-in-out;
 }
 
 #root:hover {
@@ -40,9 +39,12 @@
 
 main {
   width: 60vw;
-  
+ 
+  font-family: "Sometype Mono";
+
   margin-top: 50px;
   margin-left: 20vw;
+  margin-bottom: 6em;
 }
 
 
