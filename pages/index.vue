@@ -33,7 +33,7 @@
 	</div>
 
 	<div class="gridFour" id="resume">
-	  <BigButton>
+	  <BigButton @clicked="() => {navigateTo('/resume/export_v3.pdf')}">
 	    My resume (fr)
 	  </BigButton>
 	</div>
